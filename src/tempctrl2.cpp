@@ -55,6 +55,16 @@
      +----------+---------------------+----------------------------------------------------------------
     */
 
+/*
+  Max31855 <-> GPIO PIN Map
+  Vin	(not connected)
+  3Vo   3.3v
+  GND   0v
+  DO	MOSI wPi=12 BCM=10 Mode=IN  V=0 Physical=19
+  CS	CE0  wPi=10 BCM=8  Mode=OUT V=1 Physical=24 
+  CLK   SCLK wPi=14 BCM=11 Mode=OUT V=0 Physical=23 
+*/
+
 #define PIN_CLK 14
 #define PIN_DO 12
 #define PIN_CS1 10
