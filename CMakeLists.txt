@@ -17,7 +17,7 @@ include_directories(
 	/usr/lib64
 )
 
-add_executable(Alexo
+add_executable(ovnctrl
 src/Config.cpp
 src/App.cpp
 src/Message.cpp
