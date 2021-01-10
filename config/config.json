@@ -1,0 +1,7 @@
+{
+  "appdir": "/etc/ovenctrl.conf",
+  "pidfile": "/run/ovenctrl.conf",
+  "logdir": "/var/log",
+  "port": 9012,
+  "daemon": false
+}
